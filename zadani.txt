@@ -1,0 +1,20 @@
+1. ZADÁNÍ
+
+Máme k dispozici výstup z meteostanice, která na zadané URL vrací XML s daty. URL musí být
+konfigurovatelná, pro účely tohoto zadání poslouží ukázkové XML na
+adrese https://pastebin.com/PMQueqDV.
+Vytvořte .NET aplikaci (typ necháme na vás - ConsoleApp, Azure Function, ...), která bude každou
+hodinu stahovat tohle XML, přetransformuje ho do JSONu a uloží do SQL databáze spolu s informací o
+datu a času stažení. Pokud je meteostanice offline, data se nevrátí. Je tedy žádoucí s tímto stavem
+počítat a do databáze uložit prázdný záznam s nějakou informací, že meteostanice nebyla dostupná.
+
+2. ZPŮSOB ODEVZDÁNÍ
+
+Zdrojový kód prosím nahrajte na GitHub a pošlete nám URL repozitáře. Přiložte také README s
+popisem aplikace - max několik vět. Případně postup spuštění či potřebné nástroje. Budeme hodnotit
+nápaditost implementace a kód jako takový.
+Prosím také o informaci, kolik času vám přibližně implementace zabrala.
+
+3. TERMÍN
+
+Zkušební práci vypracujte nejpozději do termínu konání ITIXO Junior Day.
